@@ -25,7 +25,7 @@
 
 - タスク登録画面
 
-![タスク登録](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/937cf089-2574-461a-8b9a-19799300eaeb)
+![タスク登録](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/124d5870-4d51-4b2b-86e0-0ffdae5747d4)
 
 - タスク変更・削除画面
 
