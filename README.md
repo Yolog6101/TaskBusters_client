@@ -16,24 +16,31 @@
 
 ### スクリーンショット
 - ユーザ登録画面
+
 ![ユーザ登録](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/31936b39-5e0d-4a8a-803f-991f1cf67eee)
 
 - タスク一覧
+
 ![タスク一覧](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/645b3280-2d6c-4a9a-a3bf-d7286e9bf638)
 
 - タスク登録画面
+
 ![タスク登録](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/937cf089-2574-461a-8b9a-19799300eaeb)
 
 - タスク変更・削除画面
+
 ![タスク変更・削除](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/74977b1b-a2cc-49e0-915a-e90f13654d3f)
 
 - レイドボス一覧
+
 ![レイドボス一覧](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/5fba7ef9-34d3-452f-a53d-37fa912dc2d1)
 
 - レイドボスとの対戦画面
+
 ![レイドボスバトル](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/7aa060e7-af15-4622-ade9-06c9c0220930)
 
 - フレンドのタスク進捗一覧
+
 ![フレンドタスク一覧](https://github.com/Yolog6101/TaskBusters_client/assets/72485319/662f3d53-638f-4000-a511-cde335ee4580)
 
 ### アピールポイント
