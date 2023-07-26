@@ -53,20 +53,13 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.2D.Tilemap.Extras.Editor.dll:
-    - UnityEditor.Tilemaps.GameObjectBrush
-    - UnityEditor.Tilemaps.GroupBrush
-    - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.RandomBrush
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
@@ -361,11 +354,11 @@ ScriptsOnlyBuild:
     fullTypeName: TasksButtonController
     methodName: ToTasks
   - assembly: Assembly-CSharp
-    fullTypeName: TaskChoiceButton
-    methodName: Onclick
-  - assembly: Assembly-CSharp
     fullTypeName: NewTaskButtonController
     methodName: ToNewTask
+  - assembly: Assembly-CSharp
+    fullTypeName: TaskChoiceButton
+    methodName: Onclick
   - assembly: Assembly-CSharp
     fullTypeName: Setting
     methodName: goSetting
