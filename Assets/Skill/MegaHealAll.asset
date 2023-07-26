@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2119b3b80667c9d4c97109298236f104, type: 3}
+  m_Name: MegaHealAll
+  m_EditorClassIdentifier: 
+  skillName: "\u30E1\u30AC\u30D2\u30FC\u30EB\u30AA\u30FC\u30EB"
+  mp: 20
+  info: "\u5168\u4F53/\u56DE\u5FA9/\u9B54\u529B\u88DC\u6B631.5"
+  range: 1
+  skillType: 2
+  element: 0
+  power: 1.5

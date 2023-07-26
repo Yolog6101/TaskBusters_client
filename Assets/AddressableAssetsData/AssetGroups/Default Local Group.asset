@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 61fef5f83a2becf41badec0163271bb0
+  m_SerializeEntries:
+  - m_GUID: 1287e7562c039714eb84f0e83260b750
+    m_Address: Assets/Skill/ChargeSlash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2463aac2cf51e524d83b94023c402001
+    m_Address: Assets/Skill/DefDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e3966b281a1b594d9daf9a7902da363
+    m_Address: Assets/Skill/DefUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06fceab2d8dd4f9458f2d60f7d209a67
+    m_Address: Assets/Skill/DefUpAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cfcdfab8b98ec24daf6a66f0037e465
+    m_Address: Assets/Skill/Fire.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7545a9e5b7922f64294ac3f596a6c706
+    m_Address: Assets/Skill/FireGuard.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d08aad7dcc5c67499247057a0b7f31d
+    m_Address: Assets/Skill/FireSlash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90941d352abf1f54198f420e639a4ee9
+    m_Address: Assets/Skill/Freeze.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dfb831162899b2641aa1fc699d030552
+    m_Address: Assets/Skill/FreezeGuard.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8bc379e16cfeeb4189024a041edc02f
+    m_Address: Assets/Skill/FreezeSlash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df3acdccde2daf84a91f09179306871c
+    m_Address: Assets/Skill/GigaFire.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afbcbb4ef99e8934cbfcfea598d805b2
+    m_Address: Assets/Skill/GigaFreeze.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc0cc6aef0a6f4648af609f660a9c133
+    m_Address: Assets/Skill/GigaHeal.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4824390954116274e88d0e75dd65a12a
+    m_Address: Assets/Skill/GigaHealAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbff6d31805c1bd45bfdaffbb0429632
+    m_Address: Assets/Skill/GigaThunder.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c8a32c21a0b88b4e822179271be28f0
+    m_Address: Assets/Skill/Heal.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f94992d9f4539d49b2a63e2a2d5e0ad
+    m_Address: Assets/Skill/HealAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b86b1cbfa763a404db797467b1b6af54
+    m_Address: Assets/Skill/MegaFire.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa1f3771be185ab418f8cf664c45c5f1
+    m_Address: Assets/Skill/MagicHeal.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 684da9c50a1ea84458a263e0ae2909c6
+    m_Address: Assets/Skill/MegaFreeze.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0730b93a8d153534a813b6c63aebd5e0
+    m_Address: Assets/Skill/MegaHeal.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6e8c205db1ae604ead8eed784e45773
+    m_Address: Assets/Skill/MegaHealAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15c2f53d905352541aebd9d4c770a5fe
+    m_Address: Assets/Skill/MegaResurrection.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0734a71a8b5370a44b22b7416fe23a58
+    m_Address: Assets/Skill/MegaThunder.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 633c593f541fcec41818d94aaaab81e7
+    m_Address: Assets/Skill/MgcDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cec9e08d1410304fb0c7d313190cc0e
+    m_Address: Assets/Skill/MgcUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ecdcc035bb531a14f830a35779d3c895
+    m_Address: Assets/Skill/MgcUpAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f625e0685034fdb4ab7ace9be0cffb06
+    m_Address: Assets/Skill/PowerSlash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89acce34f34a4ff4d9c4a9e38323a1d6
+    m_Address: Assets/Skill/Protect.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5a902b75d675404cb3748d997ca9917
+    m_Address: Assets/Skill/ResDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33ffca4f2befc154cb8a27c642cf2b85
+    m_Address: Assets/Skill/ResUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 321ddb8ac5245b94ba3b8619258203f1
+    m_Address: Assets/Skill/ResUpAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e134543da798e054fae4f78d68df5d59
+    m_Address: Assets/Skill/Resurrection.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86b4637e442fe7d48b11f16e2527aa26
+    m_Address: Assets/Skill/SpdDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95dc09d3ecb0fd4499cf2ba6b8cd3c72
+    m_Address: Assets/Skill/SpdUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac0e4b52fdc0609428888be4b6821137
+    m_Address: Assets/Skill/SpdUpAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 376b2ec597e004142a6941727e8ec968
+    m_Address: Assets/Skill/StrDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d41b3a957fb51514d88a8d4aaa91f49a
+    m_Address: Assets/Skill/StrUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd2784b5100e43e488c8de430c6ec570
+    m_Address: Assets/Skill/StrUpAll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18cdd75538bf3c94e9eade18516fd442
+    m_Address: Assets/Skill/Thunder.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a59bb1382881ba1478023fcea904eb34
+    m_Address: Assets/Skill/ThunderGuard.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7aed2308862da504ba0acd3355727f99
+    m_Address: Assets/Skill/ThunderSlash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ca6074cd00122104eac77e956d2a665a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0de1403509c17b142b900eaedac8e3ad, type: 2}
+    - {fileID: 11400000, guid: 30e117e3b6d37d74ab1406e3a9972847, type: 2}

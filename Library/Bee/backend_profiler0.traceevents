@@ -1,0 +1,728 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690273532201604, "dur":2765, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532204380, "dur":204, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690273532204629, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690273532204656, "dur":461, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690273532205144, "dur":548, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532205692, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750554, "dur":287, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750841, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750852, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750855, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750860, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750862, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750867, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750869, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750874, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750875, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750881, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750882, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750888, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750890, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750894, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750896, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750901, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750903, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750908, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750910, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750916, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750918, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750923, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750925, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750931, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750961, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532750986, "dur":6431, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690273532205534, "dur":166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532205703, "dur":6148, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532211863, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690273532211868, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532211985, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690273532211987, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532212094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532221078, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690273532225515, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690273532225586, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532225635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532225643, "dur":8789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690273532234506, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1690273532234579, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532234629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532234636, "dur":9290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1690273532244003, "dur":954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690273532244958, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532245012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532245018, "dur":50733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690273532295815, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532295882, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532295935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532296069, "dur":13153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532309293, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532309355, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532309409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532309416, "dur":15043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532324525, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532324584, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532324632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532324637, "dur":16675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532341374, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532341443, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532341496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532341504, "dur":24598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532366166, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532366224, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532366270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532366277, "dur":20378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532386740, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532386812, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532386863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532386870, "dur":44992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532431921, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532432500, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532432556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532432561, "dur":36944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532469567, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532469642, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532469693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532469699, "dur":120448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690273532590200, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532590256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532590261, "dur":8571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532598894, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690273532598956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532598961, "dur":15036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690273532614058, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532614118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532614123, "dur":9646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532623839, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532623906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532623913, "dur":16555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690273532640533, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1690273532640598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532640603, "dur":17654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1690273532658326, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690273532658867, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532658921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690273532658928, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690273532663506, "dur":87085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532205607, "dur":109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532205716, "dur":6142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532211864, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690273532211965, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532212022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532215217, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690273532221748, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690273532221795, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532221849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532222371, "dur":7154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690273532229607, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690273532229679, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532229772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532229779, "dur":18018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690273532248057, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532248148, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532248207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532248682, "dur":17200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532265955, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532266024, "dur":16361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532282393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532282401, "dur":15934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532298404, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532298483, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532298534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532298539, "dur":12119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532310714, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532310780, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532310854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532310861, "dur":13307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532324319, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532324405, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532324626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532324634, "dur":18330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532343029, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532343093, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532343142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532343149, "dur":38356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532381566, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532381623, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532381675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532381683, "dur":17440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532399203, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532399273, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532399329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532399337, "dur":26972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532426374, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532426437, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532426512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532426520, "dur":30674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532457266, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UniRx.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532458076, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532458129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532458135, "dur":51104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UniRx.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532509303, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532509368, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532509419, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690273532509493, "dur":158263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690273532667801, "dur":82778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532205725, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532205725, "dur":6131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532211863, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690273532212001, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532212159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532229328, "dur":16258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690273532245650, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1690273532245719, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532245773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532246496, "dur":12301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1690273532258878, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532258949, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532259008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532259015, "dur":41174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532300270, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532300341, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532300592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532300597, "dur":17677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532318339, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532318398, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532318449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532318484, "dur":16957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532335502, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532335566, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532335621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532335626, "dur":13782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532349491, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532349565, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532349616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532349623, "dur":20545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532370224, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532370281, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532370329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532370336, "dur":22467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532392865, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532393662, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532393719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532393725, "dur":53048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532446852, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532447359, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532447411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532447418, "dur":12842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532460315, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532460378, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532460425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532460486, "dur":48872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532509420, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532509478, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532509535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532509540, "dur":50026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690273532559631, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1690273532559693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532559767, "dur":42849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1690273532602679, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532602738, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532602749, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532611300, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532611372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532611381, "dur":12431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532623872, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1690273532624487, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532624578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532624585, "dur":9426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1690273532634079, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532634150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532634156, "dur":11039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690273532645264, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1690273532645343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690273532645350, "dur":16402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1690273532661876, "dur":88678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532205570, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532205708, "dur":6149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532211864, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690273532211971, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532212055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532215980, "dur":21737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690273532237795, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532237861, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532237915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532239237, "dur":81585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532321080, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532321150, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532321199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532321205, "dur":25704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532346974, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532347044, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532347096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532347102, "dur":13437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532360603, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532360665, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532360711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532360718, "dur":14906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532375703, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532375764, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532375815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532375822, "dur":102055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532477939, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532478001, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532478056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532478063, "dur":19750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532497892, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532497960, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532498012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532498020, "dur":121008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690273532619107, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690273532619178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532619182, "dur":9384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690273532628641, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1690273532629675, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532629813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532629822, "dur":10553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1690273532640452, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1690273532640530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532640537, "dur":9675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1690273532650294, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690273532650361, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690273532650367, "dur":14668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690273532665080, "dur":85506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532205632, "dur":94, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532205727, "dur":6128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532211864, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690273532211994, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532212178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532234335, "dur":13604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690273532248007, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532248074, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532248127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532248545, "dur":34187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532282890, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532283122, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532283193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532283204, "dur":17152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532300424, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532300490, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532300590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532300596, "dur":17665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532318322, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532318390, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532318438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532318446, "dur":45181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532363688, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532363774, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532363835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532363842, "dur":12041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532375944, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532376023, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532376081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532376087, "dur":12753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532388908, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532388975, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532389027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532389037, "dur":13308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532402412, "dur":1422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532403834, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532403896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532403904, "dur":10467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532414435, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532415187, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532415238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532415245, "dur":57254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532472576, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532472648, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532472702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532472710, "dur":30742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532503524, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532503591, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532503641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690273532503648, "dur":172730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690273532676426, "dur":74139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532205687, "dur":49, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532205736, "dur":6118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532211863, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1690273532211997, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532212124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532224802, "dur":16069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1690273532240938, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1690273532241009, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532241056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532241062, "dur":90452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1690273532331581, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532331646, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532331693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532331699, "dur":13402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532345166, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532345226, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532345294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532345302, "dur":38374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532383738, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532383798, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532383851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532383858, "dur":20495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532404419, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532405456, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532405512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532405519, "dur":61531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532467115, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532467180, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532467238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532467245, "dur":16891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532484198, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532484266, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532484316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532484323, "dur":35968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532520344, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532520399, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532520449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690273532520455, "dur":171962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690273532692461, "dur":58096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532205755, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532205755, "dur":6097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532211864, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1690273532211996, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532212182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532238739, "dur":16272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1690273532255074, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532255137, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532255185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532255301, "dur":27776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532283159, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532283236, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532283291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532283302, "dur":16133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532299507, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532299571, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532299694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532299702, "dur":11616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532311382, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532311449, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532311498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532311503, "dur":19643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532331217, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532331281, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532331334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532331342, "dur":12891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532344294, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532344364, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532344416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532344423, "dur":14852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532359338, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532359399, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532359451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532359457, "dur":13699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532373219, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532373283, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532373334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532373342, "dur":13746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532387173, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532387241, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532387338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532387344, "dur":17606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532405014, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532405474, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532405554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532405560, "dur":15331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532420954, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532421016, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532421067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532421074, "dur":22935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532444077, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532444767, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532444830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532444838, "dur":24503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532469414, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532469495, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532469550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532469560, "dur":81069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532550691, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532551460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532551468, "dur":69168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690273532620702, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690273532620767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532620774, "dur":12421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690273532633262, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690273532633332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532633341, "dur":14082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690273532647488, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1690273532647553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532647560, "dur":8293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1690273532655932, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1690273532656007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690273532656012, "dur":8796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1690273532664871, "dur":85728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532205811, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532205811, "dur":6042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532211863, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690273532211969, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532212065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532217495, "dur":5832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690273532223400, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690273532223516, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532223562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532223641, "dur":14844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690273532238577, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532238653, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532238706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532238710, "dur":83994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532322783, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532322850, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532322951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532322958, "dur":14589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532337609, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532337668, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532337716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532337723, "dur":16774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532354560, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532354621, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532354670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532354678, "dur":16097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532370843, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532370910, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532370962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532370968, "dur":16799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532387828, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532387888, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532387945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532387951, "dur":15627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532403642, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532404326, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532404384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532404389, "dur":33820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532438273, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532438903, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532438958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532438965, "dur":21674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532460717, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532460778, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532460832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690273532460838, "dur":207171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690273532668064, "dur":82506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532205863, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532205864, "dur":6022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532211887, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690273532211988, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532212172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532231771, "dur":24620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690273532256457, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532256520, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532256711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532256719, "dur":26109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532283077, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532283177, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532283242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532283248, "dur":14783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532298131, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532298198, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532298264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532298271, "dur":12303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532310638, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532311263, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532311335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532311341, "dur":46943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532358361, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532358432, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532358483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532358491, "dur":40584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532399145, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532400183, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532400259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532400265, "dur":55409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532455745, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532456640, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532456699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532456707, "dur":20299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532477075, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532477141, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532477195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532477202, "dur":32734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532510006, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532510087, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532510136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532510142, "dur":111088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690273532621304, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690273532621371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532621377, "dur":26126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690273532647571, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1690273532647637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690273532647643, "dur":14882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1690273532662741, "dur":87810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532205914, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532205915, "dur":5961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532211880, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1690273532211976, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532212082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532219042, "dur":11285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1690273532230391, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1690273532230480, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532230526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532230534, "dur":25821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1690273532256426, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532256498, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532256712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532256719, "dur":26102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532282893, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532282974, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532283027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532283036, "dur":16897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532300001, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532300085, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532300147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532300175, "dur":20795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532321041, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532321105, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532321156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532321164, "dur":13917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532335144, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532335205, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532335256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532335262, "dur":15249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532350573, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532350635, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532350764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532350769, "dur":14483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532365321, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532365385, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532365441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532365448, "dur":19782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532385294, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532385374, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532385566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532385574, "dur":16280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532401926, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532402754, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532402815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532402824, "dur":46931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532449817, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532450646, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532450700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532450706, "dur":20427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532471200, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532471262, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532471383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532471391, "dur":15138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532486589, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532486656, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532486706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532486713, "dur":26448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532513226, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532513287, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532513338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532513346, "dur":42443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532555846, "dur":14386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532570239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532593356, "dur":26003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690273532619423, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690273532619486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532619491, "dur":19796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690273532639830, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1690273532639944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532639953, "dur":15299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1690273532655318, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690273532655382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690273532655390, "dur":5976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690273532661468, "dur":89084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532205968, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532205969, "dur":5899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532211871, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1690273532211981, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532212147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532226911, "dur":9049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1690273532236040, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1690273532236142, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532236190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532236197, "dur":30906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1690273532267290, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532267670, "dur":14716, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532282393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532282410, "dur":16638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532299117, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532299190, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532299249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532299255, "dur":17901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532317225, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532317287, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532317336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532317343, "dur":14471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532331878, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532332040, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532332188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532332193, "dur":14009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532346282, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532346348, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532346398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532346405, "dur":15559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532362028, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532362102, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532362154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532362160, "dur":14028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532376258, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532376343, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532376397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532376402, "dur":15722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532392188, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532392750, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532392807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532392815, "dur":20610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532413493, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532413556, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532413606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532413613, "dur":16404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532430077, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532430147, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532430207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532430235, "dur":17791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532448142, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532449602, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532449660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532449667, "dur":17389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532467119, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532467186, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532467237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532467245, "dur":40723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532508041, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532508113, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532508191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532508201, "dur":15532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532523805, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532523869, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532523921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532523929, "dur":81636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690273532605630, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690273532605698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532605705, "dur":12297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690273532618064, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690273532618128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532618134, "dur":33799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690273532651995, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1690273532652064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690273532652070, "dur":7812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1690273532659949, "dur":90604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532206030, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532206031, "dur":5828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532211863, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1690273532211987, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532212113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532222660, "dur":14966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1690273532237699, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532237768, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532237820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532238485, "dur":70775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532309364, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532309511, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532309556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532309561, "dur":77018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532386652, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532386723, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532386781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532386791, "dur":12663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532399513, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532400026, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532400092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532400099, "dur":31598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532431757, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532431809, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532431850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532431857, "dur":66957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532498872, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532498925, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532498976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690273532498982, "dur":251492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yuzuki Oe/Desktop/TaskBusters!/todolist-game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690273532750520, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1690273532750522, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690273532761703, "dur":2313, "ph":"X", "name": "ProfilerWriteOutput" }
+,

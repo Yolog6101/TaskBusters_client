@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/TasksScene.unity
+    guid: 89e18d338dd0a1749b860ec445aec7f7
+  - enabled: 1
+    path: Assets/Scenes/SettingScene.unity
+    guid: dbfe43bc05e4be841a4d3176bb57dd0e
+  - enabled: 1
+    path: Assets/Scenes/NewTaskScene.unity
+    guid: 68578f894d5acd6449c57de5bb1861bf
+  - enabled: 1
+    path: Assets/Scenes/BossesScene.unity
+    guid: 9a038aa72cb305548afdb22021edf412
+  - enabled: 1
+    path: Assets/Scenes/StatusScene.unity
+    guid: c89447c4ffec6124f932c0dcd5fc310c
+  - enabled: 1
+    path: Assets/Scenes/TasksScene.unity
+    guid: 89e18d338dd0a1749b860ec445aec7f7
+  - enabled: 1
+    path: Assets/Scenes/TaskInfoScene.unity
+    guid: c56491d5d6e073042a3f2011ae46f5b6
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: 3835c3bd8baeaf24d964c0937be643d1
+  - enabled: 1
+    path: Assets/Scenes/ShareScene.unity
+    guid: e806919f299bb7e489f4ca461d483e1d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 025cec5a1d701284f8995379afe4df57, type: 2}

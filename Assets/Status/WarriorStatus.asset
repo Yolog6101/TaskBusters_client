@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010e8a436500d1744a4e8e95c1c7557a, type: 3}
+  m_Name: WarriorStatus
+  m_EditorClassIdentifier: 
+  characterName: "\u6226\u58EB"
+  level: 100
+  hp: 218
+  mp: 38
+  str: 132
+  mgc: 34
+  spd: 69
+  def: 142
+  res: 51
+  skillList:
+  - {fileID: 11400000, guid: 9d08aad7dcc5c67499247057a0b7f31d, type: 2}
+  - {fileID: 11400000, guid: b8bc379e16cfeeb4189024a041edc02f, type: 2}
+  - {fileID: 11400000, guid: 7aed2308862da504ba0acd3355727f99, type: 2}
+  - {fileID: 11400000, guid: 1287e7562c039714eb84f0e83260b750, type: 2}
+  - {fileID: 11400000, guid: 89acce34f34a4ff4d9c4a9e38323a1d6, type: 2}
+  - {fileID: 11400000, guid: f625e0685034fdb4ab7ace9be0cffb06, type: 2}
+  allSkillList:
+  - {fileID: 11400000, guid: 9d08aad7dcc5c67499247057a0b7f31d, type: 2}
+  - {fileID: 11400000, guid: b8bc379e16cfeeb4189024a041edc02f, type: 2}
+  - {fileID: 11400000, guid: 7aed2308862da504ba0acd3355727f99, type: 2}
+  - {fileID: 11400000, guid: 1287e7562c039714eb84f0e83260b750, type: 2}
+  - {fileID: 11400000, guid: 89acce34f34a4ff4d9c4a9e38323a1d6, type: 2}
+  - {fileID: 11400000, guid: f625e0685034fdb4ab7ace9be0cffb06, type: 2}

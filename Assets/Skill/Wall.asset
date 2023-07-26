@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2119b3b80667c9d4c97109298236f104, type: 3}
+  m_Name: Wall
+  m_EditorClassIdentifier: 
+  skillName: "\u969C\u58C1"
+  mp: 0
+  info: "\u5358\u4F53/\u5B88\u5099&\u9B54\u96321\u6BB5\u968E\u4E0A\u6607"
+  range: 0
+  skillType: 3
+  element: 6
+  power: 1
